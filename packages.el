@@ -85,9 +85,9 @@ Each entry is either:
   ;; leader key
   (spacemacs/set-leader-keys ",," 'org-fc-hydra/body)
   (spacemacs/set-leader-keys ",n" 'org-fc-type-normal-init)
-  (spacemacs/set-leader-keys ",c" 'org-fc-type-text-input-init)
+  (spacemacs/set-leader-keys ",t" 'org-fc-type-text-input-init)
   (spacemacs/set-leader-keys ",d" 'org-fc-type-double-init)
-  (spacemacs/set-leader-keys ",t" 'org-fc-type-cloze-init)
+  (spacemacs/set-leader-keys ",c" 'org-fc-type-cloze-init)
   (spacemacs/set-leader-keys ",r" 'org-fc-review)
 
   ;; minor-mode key
