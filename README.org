@@ -23,14 +23,32 @@ This layer adds support for org-fc.
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =fc= to the existing =dotspacemacs-configuration-layers= list in this
+add =org-fc= to the existing =dotspacemacs-configuration-layers= list in this
 file.
 
 * Key bindings
 
-| Key Binding | Description      |
-|-------------+------------------|
-| ~SPC x x x~ | to be determined |
+- Globak keybindings
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~SPC , ,~   | org-fc-hydra dialog   |
+| ~SPC , n~   | make normal card      |
+| ~SPC , t~   | make text-input card |
+| ~SPC , d~   | make double card      |
+| ~SPC , c~   | make cloze card      |
+| ~SPC , r~   | start review          |
+
+- Review minor-mode keybindings
+| Key Binding | Description   |
+|-------------+---------------|
+| RET or f    | flip card     |
+| q           | quit review   |
+|-------------+---------------|
+| a           | rate as Again |
+| h           | rate as Hard  |
+| j           | rate as Good  |
+| k           | rate as Easy  |
+| s           | suspend card  |
 
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:
