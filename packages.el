@@ -94,11 +94,14 @@ Each entry is either:
   (evil-define-minor-mode-key '(normal insert emacs) 'org-fc-review-flip-mode
     (kbd "RET") 'org-fc-review-flip
     (kbd "f") 'org-fc-review-flip
-    (kbd "q") 'org-fc-review-quit)
+    (kbd "q") 'org-fc-review-quit
+    (kbd "p") 'org-fc-review-edit
+    (kbd "s") 'org-fc-review-suspend-card)
   (evil-define-minor-mode-key '(normal insert emacs) 'org-fc-review-rate-mode
     (kbd "a") 'org-fc-review-rate-again
     (kbd "h") 'org-fc-review-rate-hard
-    (kbd "j") 'org-fc-review-rate-good
-    (kbd "k") 'org-fc-review-rate-easy
+    (kbd "g") 'org-fc-review-rate-good
+    (kbd "e") 'org-fc-review-rate-easy
     (kbd "s") 'org-fc-review-suspend-card
+    (kbd "p") 'org-fc-review-edit
     (kbd "q") 'org-fc-review-quit))
