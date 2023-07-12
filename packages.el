@@ -100,7 +100,7 @@ Each entry is either:
   (evil-define-minor-mode-key '(normal insert emacs) 'org-fc-review-rate-mode
     (kbd "a") 'org-fc-review-rate-again
     (kbd "h") 'org-fc-review-rate-hard
-    (kbd "g") 'org-fc-review-rate-good
+    (kbd "j") 'org-fc-review-rate-good
     (kbd "e") 'org-fc-review-rate-easy
     (kbd "s") 'org-fc-review-suspend-card
     (kbd "p") 'org-fc-review-edit
