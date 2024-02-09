@@ -79,7 +79,7 @@ Each entry is either:
 (defun org-fc/init-org-fc ()
   (use-package hydra)
   (require 'org-fc-hydra)
-  (setq org-fc-directories '("~/onedrive/"))
+  (setq org-fc-directories '("~/onedrive/" "~/fc/"))
   (setq org-fc-review-history-file '"~/onedrive/org-fc-reviews.tsv")
 
   ;; leader key
